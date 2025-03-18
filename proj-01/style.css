@@ -4,8 +4,13 @@ body {
    margin: 0;
  }
 
+ header, img {
+  margin-bottom: 72px;
+ }
+
  main {
    width: 592px;
+   margin: 0 auto 72px;
  }
 
  h1 {
@@ -13,6 +18,7 @@ body {
    font-size: 49px;
    line-height: 56px;
    font-weight: normal;
+   margin-bottom: 32px;
  }
 
  h1 span {
@@ -25,4 +31,10 @@ body {
 
  p {
    color: #7D7987;
+   font-size: 14px;
+   line-height: 28px;
+ }
+
+ footer, a + a{
+  margin-left: 28px;
  }
